@@ -55,6 +55,4 @@ fun main(args : Array<String>) {
     val numList = mutableListOf(5, 2, 8, 1)
     numList.sort()
     println(numList)  // Output: [1, 2, 5, 8]
-
-
 }

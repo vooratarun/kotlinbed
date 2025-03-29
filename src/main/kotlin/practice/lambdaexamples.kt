@@ -36,4 +36,12 @@ fun main(args : Array<String>) {
     val  double = getMultiplier(2);
     println(double(5))
 
+    val numbers = listOf(1,2,3,4,5);
+    val evenNumbers = numbers.filter { it % 2 ==0 };
+    println(evenNumbers)
+
+    val names = listOf("alice","bob","charlie");
+    val namesLength = names.map { it.length }
+    println(namesLength);
+
 }
