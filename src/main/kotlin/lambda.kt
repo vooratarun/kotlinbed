@@ -1,5 +1,5 @@
 val greetnew : (String) -> Unit = {
-     name:String -> println("name is $name")
+     name -> println("name is $name")
 }
 
 val greetInt : (Int) -> Unit = {
@@ -41,7 +41,7 @@ val square34: (Int) -> Unit = {
 }
 
 fun main() {
-    greetnew("name")
+    greetnew("ram")
     greetInt(3)
     greetNewS("tarun")
     sayHellonew()

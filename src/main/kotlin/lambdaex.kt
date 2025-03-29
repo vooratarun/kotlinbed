@@ -1,5 +1,5 @@
 val greet: (String) -> Unit = {
-    name: String -> println("Hello $name")
+    name -> println("Hello $name")
 }
 
 val sayHello:() -> Unit = {
